@@ -9,3 +9,17 @@ print(data.dtype)
 print(data * 2)
 print(data ** 2)
 print(data / 2)
+
+
+print(data)
+data.sort()
+print(data)
+
+data[::-1].sort()
+print(data)
+
+print(data.min())
+print(data.max())
+print(data.sum())
+print(data.cumsum())
+print(data.cumsum() / data.sum())
