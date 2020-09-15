@@ -1,5 +1,5 @@
 import numpy as np
-
+import numpy.random as random
 # %precision 3
 
 data = np.array([9, 2, 3, 4, 10, 6, 7, 8, 1, 5])
@@ -23,3 +23,6 @@ print(data.max())
 print(data.sum())
 print(data.cumsum())
 print(data.cumsum() / data.sum())
+
+random.seed(0)
+print(random.randn(10))
