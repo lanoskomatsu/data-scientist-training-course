@@ -24,5 +24,5 @@ print(data.sum())
 print(data.cumsum())
 print(data.cumsum() / data.sum())
 
-random.seed(0)
+random.seed(1)
 print(random.randn(10))
