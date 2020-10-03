@@ -26,3 +26,12 @@ print(data.cumsum() / data.sum())
 
 random.seed(0)
 print(random.randn(10))
+
+
+data = np.array([9,2,3,4,10,6,7,8,1,5])
+print(random.choice(data,10))
+print(random.choice(data,10,replace = False))
+
+random.seed(1)
+print(random.choice(data,10))
+print(random.choice(data,10,replace = False))
