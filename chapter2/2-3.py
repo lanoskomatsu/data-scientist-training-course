@@ -9,3 +9,6 @@ print(linalg.det(matrix))
 
 matrix = np.array([[1,1,1], [-1,-1,-1], [-1,-1,-1]])
 print(linalg.det(matrix))
+
+matrix = np.array([[-1,-1,-1], [-1,-1,-1], [-1,-1,-1]])
+print(linalg.det(matrix))
